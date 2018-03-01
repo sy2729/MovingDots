@@ -5,18 +5,36 @@ html, body {
 	padding: 0;
 }
 
-.container {
+ul li {
+	list-style: none;
+}
+
+canvas {
+	-webkit-filter: blur(1px);
+	filter: blur(2px);
+	position: relative;
+	z-index: 10;
+}
+
+.bigContainer {
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	margin: auto;
+	display: flex;
+	justify-content: center;
+	z-index: 20;
+}
+.container {
+
 }
 
 h1 {
 
 }
 
-.colorChange {
+.colorChange li{
+	display: inline;
+
 }

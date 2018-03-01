@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Canvas practice</title>
 
 	<link rel="stylesheet" href="app.css">
 </head>
 <body>
-	<div class="container">
-		<h1>My first canvas practice</h1>
-		<ul class="colorChange">
-			<li><button onclick = changeOrange()>Orangered</button></li>
-			<li><button onclick = changeRed()>Red</button></li>
-			<li><button onclick = changeBlack()>Black</button></li>
-			<li><button onclick = clear()>Clear</button></li>
-		</ul>
+	<div class="bigContainer">
+		<div class="container">
+			<h1>My first canvas practice</h1>
+			<ul class="colorChange">
+				<li><button onclick = changeOne()>清新淡雅</button></li>
+				<li><button onclick = changeTwo()>五彩纷呈</button></li>
+				<li><button onclick = changeThree()>粉色世界</button></li>
+			</ul>
+		</div>
 	</div>
 
 	<canvas id="myCanvas"></canvas>

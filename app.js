@@ -6,28 +6,6 @@ canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
 
-// let drawSquare = 5;
-// let color = "orangered";
-
-// function changeOrange () {
-//   color = 'orangered';
-// }
-
-// function changeRed() {
-//   color = 'red';
-// }
-
-// function changeBlack() {
-//   color = 'black';
-// }
-
-// function clear() {
-//   c.clearRect(0, 0, innerWidth, innerHeight);
-// }
-
-
-
-
 
 
 
@@ -165,3 +143,20 @@ window.addEventListener('resize', function () {
   canvas.height = window.innerHeight;
   init();
 })
+
+//change color on click------------------------
+
+function changeOne() {
+  colors = ['#B29190', '#FFFFD3', '#FF8E8B', '#77A8CC', '#5E8EB2', '#FFD792'];
+  init();
+}
+
+function changeTwo() {
+  colors = ['#009AA7', '#D5D8C8', '#F3A346', '#EF551F', '#DB381B', '#DB8BA1'];
+  init();
+}
+
+function changeThree() {
+  colors = ['#F2A5AB', '#F3B2B0', '#F5C8C3', '#F0D5CC', '#D4E6DA', '#F398A2'];
+  init();
+}
